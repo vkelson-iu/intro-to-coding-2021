@@ -60,6 +60,7 @@ As I write this, I have noticed that the published and amended schedule has 11 d
  * Indexing and slicing strings
  * Processing a `str` one character at a time with a `for` loop
  * Introducing sequence types (`tuple` and `list`)
+ * Sorting a `list`  
  * Processing sequences with the `for` loop
  * The `for` loop as an expression: list comprehensions
  * Controlling our loops: the `break` and `continue` keywords
@@ -69,18 +70,29 @@ As I write this, I have noticed that the published and amended schedule has 11 d
  * Introducing dictionaries
  * Indexing and accessing dictionaries
  * Looping over dictionaries with the `keys`, `values`, and `items` methods
+
+#### Session 5 - Reading and writing external data
+ * A short introduction to character encodings
+ * Reading a text file one line at a time or as a whole
+ * Reading and processing a large text file
+ * Writing textual data to a file
+ * Using the Python `csv` module to read, process, and write comma-separated tabuilar data
+ * Wrapping file input/output inside of a context manager using the `with` keyword
+
+#### Session 6 - Much ado about the "iterator" protocol
+ * What is an iterator and how do I create one?
+ * Introducing generators and the `yield` keyword
+ * Generator expressions 
+ * When should I consider using a generator?
  * Using the `itertools` module for more-powerful looping
+ * More about sorting and using the `sorted` generator
 
+#### Session 7 - Making our very own data types
+ * What is object-oriented programming, and why would I want to utilize it?
+ * Encapsulating data in a custom structured data type with the `class` keyword
+ * Adding code (or "methods") to a class
+ * Special methods (or "under" methods)
 
-String processing / Reading external data as text.
-
-#### Session 5
-The Python Standard Library / the 'import' statement / utilizing the 'csv' module to read, process, and write tabular data sets.
-
-#### Session 6
-List Comprehensions / Generators / Generator Expressions.
-
-#### Session 7
 Introducing object-oriented programming via data classes / Methods
 
 #### Session 8
